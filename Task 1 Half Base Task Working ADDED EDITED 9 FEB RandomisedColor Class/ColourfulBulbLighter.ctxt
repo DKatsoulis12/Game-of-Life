@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ColourfulBulbLighter
+comment0.text=\n\ Write\ a\ description\ of\ class\ ColourfulBulbLighter\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=field\ location\ col
+comment1.target=ColourfulBulbLighter(Field,\ Location,\ javafx.scene.paint.Color)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ ColourfulBulbLighter\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=boolean\ aliveCell()
+comment4.params=
+comment4.target=boolean\ reproduction()
+numComments=5
