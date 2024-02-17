@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CameloenCell
+comment0.text=\n\ Write\ a\ description\ of\ class\ CameloenCell\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=field\ loc\ col
+comment1.target=CameloenCell(Field,\ Location,\ javafx.scene.paint.Color)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ CameloenCell\n
+comment2.params=
+comment2.target=void\ act()
+numComments=3
