@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Chameleon
+comment1.params=field\ loc\ col
+comment1.target=Chameleon(Field,\ Location,\ javafx.scene.paint.Color)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ \ \ \ public\ void\ act()\ {\n\ \ \ \ \ \ \ \ //\ Always\ set\ Chameleon\ cells\ as\ alive\n\ \ \ \ \ \ \ \ setAlive();\n\n\ \ \ \ \ \ \ \ //\ Toggle\ between\ magenta\ and\ cyan\ in\ each\ generation\n\ \ \ \ \ \ \ \ if\ (getColor().equals(Color.MAGENTA))\ {\n\ \ \ \ \ \ \ \ \ \ \ \ setColor(Color.CYAN);\n\ \ \ \ \ \ \ \ }\ else\ {\n\ \ \ \ \ \ \ \ \ \ \ \ setColor(Color.MAGENTA);\n\ \ \ \ \ \ \ \ }\n\n\ \ \ \ \ \ \ \ //\ Make\ sure\ to\ update\ the\ state\ after\ changing\ the\ color\n\ \ \ \ \ \ \ \ setNextState(true);\n}
+comment3.params=
+comment3.target=void\ updateState()
+numComments=4
