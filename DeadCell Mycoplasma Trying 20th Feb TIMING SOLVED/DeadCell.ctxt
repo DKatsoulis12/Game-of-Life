@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=DeadCell
+comment0.text=\n\ Write\ a\ description\ of\ class\ DeadCell\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=field\ location\ col
+comment1.target=DeadCell(Field,\ Location,\ javafx.scene.paint.Color)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ DeadCell\n
+comment2.params=
+comment2.target=void\ act()
+numComments=3
