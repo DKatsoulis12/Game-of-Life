@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=AdjustiveMycoplasma
+comment0.text=\n\ Write\ a\ description\ of\ class\ AdjustiveMycoplasma\ here.\nOnce\ working,\ add\ calcultaions\ based\ on\ grid\ widht\ &\ height\!\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=field\ location\ alivecol\ deadcol
+comment1.target=AdjustiveMycoplasma(Field,\ Location,\ javafx.scene.paint.Color,\ javafx.scene.paint.Color)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ AdjustiveMycoplasma\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=populationCount
+comment3.target=void\ determineReproductionRate(int)
+numComments=4

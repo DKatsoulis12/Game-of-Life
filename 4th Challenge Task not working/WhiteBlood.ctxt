@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WhiteBlood
+comment0.text=\n\ Write\ a\ description\ of\ class\ WhiteBlood\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=field\ location\ alivecol\ deadcol
+comment1.target=WhiteBlood(Field,\ Location,\ javafx.scene.paint.Color,\ javafx.scene.paint.Color)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ WhiteBlood\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=isolation\ survival
+comment3.target=void\ determineNextState(int,\ int)
+comment4.params=isolation\ survival
+comment4.target=boolean\ aliveCell(int,\ int)
+numComments=5
