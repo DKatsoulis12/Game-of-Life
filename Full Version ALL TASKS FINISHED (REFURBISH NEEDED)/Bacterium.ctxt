@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Bacterium
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Bacterium\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=field\ location\ alivecol\ deadcol
+comment1.target=Bacterium(Field,\ Location,\ javafx.scene.paint.Color,\ javafx.scene.paint.Color)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Bacterium\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ This\ is\ how\ the\ Mycoplasma\ decides\ if\ it's\ alive\ or\ not\r\n
+comment3.params=whiteBloodPop\ nonBacteriaPop
+comment3.target=boolean\ aliveCell(int,\ int)
+comment3.text=\r\n\ If\ bacteria\ alive\:\r\n\ \ \ \ If\ the\ number\ of\ white\ blood\ cell\ neighbours\ around\ them\ >\=\ 2\:\r\n\ \ \ \ \ \ \ \ They\ die\ \r\n\ \ \ \ Else\ if\ the\ number\ of\ non\ bacteria\ neighbours\ >\=\ 3\:\r\n\ \ \ \ \ \ \ \ They\ die\ \r\n\ \ \ \ Else\:\r\n\ \ \ \ \ \ \ \ They\ survive\r\n\ If\ bacteria\ is\ dead\:\r\n\ \ \ \ If\ the\ number\ of\ white\ blood\ cells\ >\ 0\:\r\n\ \ \ \ \ \ \ \ \ \ They\ stay\ dead\r\n\ \ \ \ Else\ if\ the\ number\ of\ non\ bacteria\ neighbours\ >\=\ 3\:\r\n\ \ \ \ \ \ \ \ \ \ They\ stay\ dead\r\n\ \ \ \ Else\:\r\n\ \ \ \ \ \ \ \ \ \ They\ become\ alive\r\n
+comment4.params=whiteBloodPop
+comment4.target=boolean\ reproduction(int)
+numComments=5

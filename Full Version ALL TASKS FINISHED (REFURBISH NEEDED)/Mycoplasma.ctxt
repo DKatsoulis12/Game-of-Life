@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=Mycoplasma
+comment0.text=\r\n\ Simplest\ form\ of\ life.\r\n\ Fun\ Fact\:\ Mycoplasma\ are\ one\ of\ the\ simplest\ forms\ of\ life.\ \ A\ type\ of\r\n\ bacteria,\ they\ only\ have\ 500-1000\ genes\!\ For\ comparison,\ fruit\ flies\ have\r\n\ about\ 14,000\ genes.\r\n\r\n\ @author\ David\ J.\ Barnes,\ Michael\ K\u00F6lling\ &\ Jeffery\ Raphael\r\n\ @version\ 2022.01.06\r\n
+comment1.params=field\ location\ alivecol\ deadcol
+comment1.target=Mycoplasma(Field,\ Location,\ javafx.scene.paint.Color,\ javafx.scene.paint.Color)
+comment10.params=
+comment10.target=void\ spreadDisease()
+comment11.params=value
+comment11.target=void\ setNextDiseasedState(boolean)
+comment12.params=
+comment12.target=void\ updateDiseased()
+comment13.params=value
+comment13.target=void\ setDiseased(boolean)
+comment14.params=
+comment14.target=void\ updateState()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ This\ is\ how\ the\ Mycoplasma\ decides\ if\ it's\ alive\ or\ not\r\n
+comment3.params=neighbours\ myClass
+comment3.target=int\ countLivingNeighbours(java.util.List,\ java.lang.Class)
+comment4.params=
+comment4.target=void\ determineDisease()
+comment5.params=isolation\ survival\ reproductionRate
+comment5.target=void\ determineNextState(int,\ int,\ int)
+comment6.params=isolation\ survival
+comment6.target=boolean\ aliveCell(int,\ int)
+comment6.text=protected\ boolean\ symbiosisAlive(int\ isolation,\ int\ survival,\ int\ population1,\ int\ population2,\ Class<?>\ class1,\ Class<?>\ class2)\ {\r\n\ \ \ \ \ \ \ \ //isolation-\ less\ than\ 2\ neighbours\r\n\ \ \ \ \ \ \ \ if\ (neighbourCount\ <\ isolation){\r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ false;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ //survival-\ 2\ or\ 3\ neighbours\r\n\ \ \ \ \ \ \ \ else\ if(neighbourCount\ \=\=\ isolation\ ||\ neighbourCount\ \=\=\ survival){\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (countLivingNeighbours(neighbours,class1)\ >\=\ population1)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ true;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ //overpopulation-\ more\ than\ 3\ neighbours\r\n\ \ \ \ \ \ \ \ else{\r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ false;\r\n\ \ \ \ \ \ \ \ }\r\n}
+comment7.params=reproduction
+comment7.target=boolean\ reproduction(int)
+comment8.params=
+comment8.target=void\ actDiseased()
+comment9.params=wbcCount
+comment9.target=boolean\ diseasedCell(int)
+numComments=15
