@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Bacterium
+comment0.text=\n\ Bacteria-\ CAN\ REPRODUCE.\n\ If\ 2\ bacteria\ or\ more\ are\ around\ a\ mycoplasma\ \n\ (or\ its\ subclases\ that\ have\ not\ overriden\ AliveCell()\ )\ that\ mycoplasma\ dies.\n\ If\ they\ have\ A\ MINIMUM\ of\ 2\ white\ blood\ cells\ around\ them\ they\ die.\n\ Bacteria\ require\ A\ MAXIMUM\ of\ 2\ non-bacteria\ neighbours\ to\ survive.\n\ For\ a\ dead\ bacterium\ to\ become\ alive,\ it\ must\ have\ no\ white\ blood\ cell\ neighbours\ and\ a\ maximum\ of\ 2\ non-bacteria\ neighbours.\n\ @author\ Dimitrios\ Katsoulis\ (23051886),\ Siddhant\ Mohapatra\ (23007046)\n\ @version\ 2024.02.29\n
+comment1.params=field\ location\ alivecol\ deadcol
+comment1.target=Bacterium(Field,\ Location,\ javafx.scene.paint.Color,\ javafx.scene.paint.Color)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Bacterium.\ Note\ that\ Bacteria\ objects\ cannot\ be\ diseased\!\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\ The\ act()\ method\ for\ bacteria.\ The\ determineNextState()\ method\ is\ directly\ inherited\ from\ the\ Mycoplasma\ class.\n\ However,\ the\ methods\ called\ by\ determineNextState()\ (aliveCell(),\ reproduction())\ are\ overriden\ within\ the\ Bacterium\ class\n
+comment3.params=whiteBloodPop\ nonBacteriaPop
+comment3.target=boolean\ aliveCell(int,\ int)
+comment3.text=Replaces\ the\ aliveCell()\ method\ of\ Mycoplasma\ \n\ Determines\ whether\ an\ alive\ bacterium\ will\ survive\ in\ the\ next\ generation,\ depending\ on\ the\ number\ of\ non\ bacteria\ and\ white\ blood\ neighbours,\ according\ to\ the\ rules\ of\ Bacterium\n\ @param\:\ whiteBloodPop\ the\ number\ of\ alive\ white\ blood\ cell\ neighbours\n\ @param\ \ nonBacteriaPop\ the\ number\ of\ alive\ bacteria\ neighbours\n\ @return\ the\ next\ state\ (alive/dead)\ of\ the\ object\ \n
+comment4.params=whiteBloodPop
+comment4.target=boolean\ reproduction(int)
+comment4.text=Replaces\ the\ reproduction()\ method\ of\ Mycoplasma\ \n\ Determines\ whether\ a\ dead\ Bacterium\ will\ be\ become\ alive\ or\ not\ in\ the\ next\ generation,\ depending\ on\ the\ number\ of\ non\ bacteria\ and\ white\ blood\ neighbours,\ according\ to\ the\ rules\ of\ Bacterium\n\ @\ param\ whiteBloodPop\ the\ number\ of\ alive\ white\ blood\ cell\ neighbours\n\ @return\ the\ next\ state\ (alive/dead)\ of\ the\ object\ \n
+numComments=5

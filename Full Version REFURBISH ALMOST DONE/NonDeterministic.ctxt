@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=NonDeterministic
+comment0.text=\n\ The\ non-determinist\ cell\ has\ two\ different\ behaviour\ sets,\ which\ it\ exhibits\ based\ on\ a\ random\n\ @author\ Dimitrios\ Katsoulis\ (23051886),\ Siddhant\ Mohapatra\ (23007046)\n\ @version\ 2022.01.06\n
+comment1.params=field\ location\ alivecol\ deadcol
+comment1.target=NonDeterministic(Field,\ Location,\ javafx.scene.paint.Color,\ javafx.scene.paint.Color)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ The\ non-deterministic\ cell\ \n
+numComments=3

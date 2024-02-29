@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Chameleon
+comment1.params=field\ loc\ alivecol\ deadcol
+comment1.target=Chameleon(Field,\ Location,\ javafx.scene.paint.Color,\ javafx.scene.paint.Color)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ updateState()
+numComments=4

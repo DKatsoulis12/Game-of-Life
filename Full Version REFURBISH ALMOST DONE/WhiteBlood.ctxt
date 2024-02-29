@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=WhiteBlood
+comment0.text=\n\ White\ blood\ cells-\ CANNOT\ REPRODUCE.\n\ Require\ A\ MINIMUM\ of\ 2\ non-bacteria\ neighbours\ to\ survive\ to\ the\ next\ generation.\n\ If\ they\ are\ surrounded\ by\ 4\ or\ more\ bacteria,\ they\ permanently\ die.\n\ @author\ Dimitrios\ Katsoulis\ (23051886),\ Siddhant\ Mohapatra\ (23007046)\n\ @version\ 2022.01.06\n
+comment1.params=field\ location\ alivecol\ deadcol
+comment1.target=WhiteBlood(Field,\ Location,\ javafx.scene.paint.Color,\ javafx.scene.paint.Color)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ WhiteBlood.\ Note\ that\ White\ Blood\ objects\ cannot\ be\ diseased\!\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=isolation\ survival
+comment3.target=void\ determineNextState(int,\ int)
+comment3.text=\ Used\ to\ determine\ the\ next\ state\ of\ the\ WhiteBlood\ object\ by\ combining\ the\ rules\ for\ staying\ alive\ and\ dying\n\ Achieves\ this\ by\ employing\ the\ aliveCell()\ method\ defined\ in\ the\ same\ class.\ Note\ that\ since\ white\ blood\ cells\ cannot\ reproduce,\ no\ reproduction()\ method\ is\ implemented\ \n\ @param\ isolation\ the\ minimum\ number\ of\ neighbours\ with\ which\ the\ WhiteBlood\ cell\ can\ survive\n\ @param\ survival\ the\ ideal\ number\ of\ neighbours\ with\ which\ WhiteBlood\ cell\ can\ survive\n
+comment4.params=isolation\ survival
+comment4.target=boolean\ aliveCell(int,\ int)
+comment4.text=\ Replaces\ the\ aliceCell()\ method\ of\ Mycoplasma\ so\ that\ the\ next\ state\ (alive/dead)\ of\ alive\ WhiteBlood\ cells\ can\ be\ determined\ according\ to\ the\ rules\ for\ white\ blood\ cells.\n\ @param\ isolation\ the\ minimum\ number\ of\ neighbours\ with\ which\ the\ WhiteBlood\ cell\ can\ survive\n\ @param\ survival\ the\ ideal\ number\ of\ neighbours\ with\ which\ the\ WhiteBlood\ cell\ can\ survive\n\ @return\ the\ next\ state\ (alive/dead)\ of\ the\ WhiteBlood\ object\ \n
+numComments=5
