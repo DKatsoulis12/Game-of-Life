@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Chameleon
+comment0.text=\r\n\ The\ Chameleon\ cell\ changes\ colour\ when\ the\ number\ of\ Mycoplasma\ neighbours\ is\ over\ a\ threshold,\ to\ disguise\ itself.\r\n\ When\ the\ number\ of\ Mycoplasma\ neighbours\ is\ over\ a\ threshold,\ its\ colour\ for\ the\ next\ generation\ changes\ to\ Cyan\r\n\ Otherewise,\ its\ colour\ for\ the\ next\ generation\ is\ magenta\r\n\ Chameleons\ cannot\ die\r\n\ @author\ Dimitrios\ Katsoulis\ (23051886),\ Siddhant\ Mohapatra\ (23007046)\r\n\ @version\ 2022.01.06\r\n
+comment1.params=field\ loc\ alivecol\ deadcol
+comment1.target=Chameleon(Field,\ Location,\ javafx.scene.paint.Color,\ javafx.scene.paint.Color)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Note\ that\ only\ the\ Mycoplasma\ cells\ are\ counted\ as\ neighbours,\ and\ since\ Chameleons\ cannot\ die\ no\ change\ to\ the\ nextState\ variable\ of\ the\ method\ are\ made\r\n
+comment3.params=
+comment3.target=void\ updateState()
+comment3.text=\r\n\ Since\ Chameleons\ do\ not\ die,\ the\ updateState()\ method\ from\ cell\ is\ overriden\ and\ the\ Chameleon\ object\ is\ immediately\ set\ to\ alive\r\n
+numComments=4

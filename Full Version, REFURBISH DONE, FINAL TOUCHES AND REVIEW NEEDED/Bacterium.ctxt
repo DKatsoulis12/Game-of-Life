@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Bacterium
+comment0.text=\r\n\ Bacteria-\ CAN\ REPRODUCE.\r\n\ If\ 2\ bacteria\ or\ more\ are\ around\ a\ mycoplasma\ \r\n\ (or\ its\ subclases\ that\ have\ not\ overriden\ AliveCell()\ )\ that\ mycoplasma\ dies.\r\n\ If\ they\ have\ A\ MINIMUM\ of\ 2\ white\ blood\ cells\ around\ them\ they\ die.\r\n\ Bacteria\ require\ A\ MAXIMUM\ of\ 2\ non-bacteria\ neighbours\ to\ survive.\r\n\ For\ a\ dead\ bacterium\ to\ become\ alive,\ it\ must\ have\ no\ white\ blood\ cell\ neighbours\ and\ a\ maximum\ of\ 2\ non-bacteria\ neighbours.\r\n\ @author\ Dimitrios\ Katsoulis\ (23051886),\ Siddhant\ Mohapatra\ (23007046)\r\n\ @version\ 2024.02.29\r\n
+comment1.params=field\ location\ alivecol\ deadcol
+comment1.target=Bacterium(Field,\ Location,\ javafx.scene.paint.Color,\ javafx.scene.paint.Color)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Bacterium.\ Note\ that\ Bacteria\ objects\ cannot\ be\ diseased\!\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\ The\ act()\ method\ for\ bacteria.\ The\ determineNextState()\ method\ is\ directly\ inherited\ from\ the\ Mycoplasma\ class.\r\n\ However,\ the\ methods\ called\ by\ determineNextState()\ (aliveCell(),\ reproduction())\ are\ overriden\ within\ the\ Bacterium\ class\r\n
+comment3.params=whiteBloodPop\ nonBacteriaPop
+comment3.target=boolean\ aliveCell(int,\ int)
+comment3.text=Replaces\ the\ aliveCell()\ method\ of\ Mycoplasma\ \r\n\ Determines\ whether\ an\ alive\ bacterium\ will\ survive\ in\ the\ next\ generation,\ depending\ on\ the\ number\ of\ non\ bacteria\ and\ white\ blood\ neighbours,\ according\ to\ the\ rules\ of\ Bacterium\r\n\ @param\:\ whiteBloodPop\ the\ number\ of\ alive\ white\ blood\ cell\ neighbours\r\n\ @param\ \ nonBacteriaPop\ the\ number\ of\ alive\ bacteria\ neighbours\r\n\ @return\ the\ next\ state\ (alive/dead)\ of\ the\ object\ \r\n
+comment4.params=whiteBloodPop
+comment4.target=boolean\ reproduction(int)
+comment4.text=Replaces\ the\ reproduction()\ method\ of\ Mycoplasma\ \r\n\ Determines\ whether\ a\ dead\ Bacterium\ will\ be\ become\ alive\ or\ not\ in\ the\ next\ generation,\ depending\ on\ the\ number\ of\ non\ bacteria\ and\ white\ blood\ neighbours,\ according\ to\ the\ rules\ of\ Bacterium\r\n\ @\ param\ whiteBloodPop\ the\ number\ of\ alive\ white\ blood\ cell\ neighbours\r\n\ @return\ the\ next\ state\ (alive/dead)\ of\ the\ object\ \r\n
+numComments=5

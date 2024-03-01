@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=NonDeterministic
+comment0.text=\r\n\ The\ non-determinist\ cell\ has\ two\ different\ behaviour\ sets,\ which\ it\ exhibits\ based\ on\ a\ random\ probability.\r\n\ If\ the\ value\ randomly\ generated\ is\ below\ 0.38\ the\ first\ set\ of\ values\ for\ aliveCell()\ and\ reproduction()\ are\ used\r\n\ Otherewise,\ the\ second\ set\ of\ values\ are\ used\r\n\ @author\ Dimitrios\ Katsoulis\ (23051886),\ Siddhant\ Mohapatra\ (23007046)\r\n\ @version\ 2022.01.06\r\n
+comment1.params=field\ location\ alivecol\ deadcol
+comment1.target=NonDeterministic(Field,\ Location,\ javafx.scene.paint.Color,\ javafx.scene.paint.Color)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ All\ of\ the\ bahaviour\ is\ determined\ in\ this\ single\ method.\ Every\ other\ method\ is\ inherited\ from\ Mycoplasma,\ but\ the\ parameters\ on\ the\ method\ are\ altered\ depending\ on\ the\ randomly\ generated\ double\ value\r\n\ The\ print\ statement\ is\ useful\ for\ testing\ purposes,\ as\ it\ displays\ the\ randomly\ generated\ value\ and\ we\ can\ determine\ which\ set\ of\ behaviours\ the\ current\ NonDeterministic\ object\ will\ display\r\n
+numComments=3

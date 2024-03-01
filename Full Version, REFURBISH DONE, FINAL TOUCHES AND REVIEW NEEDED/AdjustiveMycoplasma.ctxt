@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=AdjustiveMycoplasma
+comment0.text=\r\n\ The\ Adjustive\ Mycoplasma\ adjusts\ the\ number\ of\ neighbours\ needed\ to\ reproduce\ depending\ on\ its\ own\ total\ population.\r\n\ If\ the\ population\ is\ 20%\ or\ less\ of\ the\ total\ grid,\ then\ 2\ neighbours\ are\ needed\ to\ reproduce\r\n\ Otherwise,\ the\ population\ is\ 40%\ or\ less\ of\ the\ total\ grid,\ then\ 3\ neighbours\ are\ needed\ to\ reproduce\r\n\ Otherwise,\ the\ population\ is\ 60%\ or\ less\ of\ the\ total\ grid,\ then\ 4\ neighbours\ are\ needed\ to\ reproduce\r\n\ @author\ Dimitrios\ Katsoulis\ (23051886),\ Siddhant\ Mohapatra\ (23007046)\r\n\ @version\ 2022.01.06\r\n
+comment1.params=field\ location\ alivecol\ deadcol
+comment1.target=AdjustiveMycoplasma(Field,\ Location,\ javafx.scene.paint.Color,\ javafx.scene.paint.Color)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ AdjustiveMycoplasma\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\ \r\n\ Similar\ to\ the\ act()\ method\ of\ mycoplasma,\ except\ the\ number\ of\ neighbours\ required\ for\ a\ dead\ cell\ to\ reproduce\ is\ calculated\ each\ time\ the\ act()\ method\ is\ called.\r\n\ Also\ calls\ the\ getCellCount()\ method\ from\ the\ FieldStats\ class.\ The\ getCellCount()\ method\ was\ created\ specfically\ to\ be\ used\ in\ this\ class.\r\n\ The\ determineNextState()\ method\ is\ inherited\ from\ Mycoplasma\ \r\n
+comment3.params=populationCount
+comment3.target=void\ determineReproductionRate(int)
+comment3.text=\r\n\ Assign\ a\ value\ to\ reproductionRate\ depending\ on\ the\ population.\ The\ current\ population\ is\ compared\ with\ the\ total\ number\ of\ cells\ in\ the\ field.\r\n\ The\ total\ number\ of\ cells\ in\ the\ field\ is\ calculated\ with\ the\ product\ of\ the\ GRID_WIDTH\ and\ GRID_HEIGHT\ public\ static\ variables\ from\ SimulatorView.\r\n\ @param\ populationCount\ the\ current\ population\ of\ AdjustiveMycoplasma\ objects\ in\ the\ field\r\n
+numComments=4
